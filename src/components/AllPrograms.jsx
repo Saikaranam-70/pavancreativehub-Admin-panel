@@ -10,7 +10,6 @@ const AllPrograms = () => {
       const responce = await fetch(`${API}/program/all-programs/${hodId}`)
       const data = await responce.json();
       setAttendence(data.program)
-      console.log(data)
     } catch (error) {
       console.log(error)
     }

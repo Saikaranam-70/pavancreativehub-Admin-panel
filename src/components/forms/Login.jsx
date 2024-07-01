@@ -22,7 +22,6 @@ const Login = ({resetPassword}) => {
         alert("Login success...!!!!!")
         setEmail("");
         setPassword("");
-        console.log(data)
         localStorage.setItem('loginToken', data.token)
         localStorage.setItem('adminId', data.adminId)
         localStorage.setItem('adminName', data.adminName)

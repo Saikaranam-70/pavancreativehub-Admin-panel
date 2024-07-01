@@ -27,7 +27,6 @@ const Register = ({showLoginHandler}) => {
                 setName("");
                 alert(" Principal Register successfully..........!!!!!")
                 showLoginHandler();
-                console.log(data)
                 
             }else {
                 alert("Email Already Taken Or Admin Of The Pavan creative Hub is Already Exists");

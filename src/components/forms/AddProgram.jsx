@@ -34,7 +34,6 @@ const AddProgram = () => {
         setProjectname("");
         setdescription("");
         setFile(null);
-        console.log(data)
       }
     } catch (error) {
       alert("Adding Project is failed")

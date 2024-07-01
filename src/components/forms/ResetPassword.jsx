@@ -18,7 +18,6 @@ const ResetPassword = () => {
             const data = await responce.json();
             if(responce.ok){
                 alert("password updated successfully")
-                console.log(data);
             }
         } catch (error) {
             console.log(error)
