@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+    background-color: rgb(246, 243, 243);
+    box-shadow: 0 3px 10px 1px gray;
+    padding: 10px;
+    color: rgb(62, 59, 59);
+}
+.menu{
+    background-color: black;
+    display: none;
+}
+.Principle{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.Sankethika{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.login-register{
+    cursor: pointer;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.sidebar{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 15%;
+    height: calc(100vh - 100px);
+    background-color: rgb(242, 244, 244);
+    box-shadow: 3px 0 10px 0.3px rgb(181, 179, 179);
+}
+.nav-side{
+    display: flex;
+}
+.sidebar .AddEvents{
+    margin-top: 40px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.AddNotifiCations{
+    margin-top: 40px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.All-Events{
+    margin-top: 40px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.All-Notifications{
+    margin-top: 40px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.register-form{
+    background-color: lightgray;
+    padding: 40px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+    flex-direction: column;
+}
+.registerSection, .loginSection, .Notification-Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.register-form h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 0 1px 10px gray;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.register-form label{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+.register-form input{
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.submitBtn button{
+    padding: 8px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+
+}
+.submitBtn button:hover{
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+.addEvent-Section{
+    display: flex;
+    background-color: rgb(222, 207, 207);
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width:30%;
+    margin: auto;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 2px 2px 20px black;
+
+}
+.event-form{
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.event-form h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.event-form label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+.event-form input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.check-inp{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.inputs-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-size: 13px;
+
+}
+.inputs-container label{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.cultureBox label{
+    font-size: 10px;
+}
+.btn{
+    margin-top: 0;
+}
+.register-form .file{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.eventTable{
+    width: 70vw;
+    max-width: 80vw;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 40px;
+    -webkit-box-shadow : 0px 4px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 16px 0px rgb(0, 0, 0, 0.75);
+}
+.eventTable th,
+.eventTable td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+.eventTable th{
+    text-align: left;
+    background-color: gray;
+}
+.productTable{
+    width: 80vw;
+    max-width: 80vw;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 40px;
+    -webkit-box-shadow : 0px 4px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 16px 0px rgb(0, 0, 0, 0.75);
+}
+.productTable th,
+.productTable td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+.productTable th{
+    text-align: left;
+    background-color: gray;
+}
+
+.table-Btn{
+    text-align: center;
+    display: flex;
+    background-color: lightcoral;
+    padding: 5px 8px;
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+}
+.table-Btn:hover{
+    background-color: beige;
+}
+.note{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.AddHod{
+    margin-top: 20px;
+}
+.feedbackCell{
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+
+@media (max-width:840px){
+    .sidebar{
+        max-width: 25%;
+        height: calc(100vh - 90px);
+    }
+    .sidebar div{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:600px){
+    .menu{
+        display: block;
+        width: 30px;
+    }
+    .sidebar{
+        width: 80px;
+    }
+    .sidebar div{
+        font-size: 12px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .sidebar .AddEvents{
+        font-size: 12px;
+    }
+    .Sankethika{
+        display: none;
+    }
+    .eventTable{
+        min-width: 600px;
+    }
+    .table-container{
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        max-width: 700px;
+    }
+    .register-form{
+        width: 100%;
+        overflow: hidden;
+        margin-left: 15px;
+    }
+    .Notification-Section{
+        width: 80%;
+        overflow: hidden;
+    }
+    .addEvent-Section{
+        width: 70%;
+        margin-top: 10px;
+    }
+    .addEvent-Section input, textarea {
+        width: 100%;
+    }
+    .sai{
+        overflow: auto;
+    }
+    
+}
+.otpbtn{
+    display: flex;
+}
+.otpbtn button{
+    margin-left:20px;
+    padding: 3px 15px;
+    border: none ;
+    outline: none;
+    border-radius: 15px;
+}
+.otpbtn button:hover{
+    background-color: rgb(48, 46, 46);
+    transition: .2s linear;
+    color: white;
+}
